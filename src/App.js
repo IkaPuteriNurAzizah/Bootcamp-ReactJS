@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Template from './Components/Template';
+// import List from './components/List'
+// import Template from './Components/Card';
 
 function App() {
   return (

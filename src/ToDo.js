@@ -1,5 +1,6 @@
 import React from "react";
-import Template from "./Components/Template";
+import Template from "./Components/Card";
+
 
 export default function App () {
     return (

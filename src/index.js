@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './ToDo';
-// import './index.css';
-// import ToDo from './ToDo';
+// import App from './ToDo';
+import App from './App';
+import List from './components/List'
 import reportWebVitals from './reportWebVitals';
-import './input.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import './input.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <List />
   </React.StrictMode>,
   document.getElementById('root')
 );
