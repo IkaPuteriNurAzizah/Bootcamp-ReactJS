@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './ToDo';
 // import './index.css';
-import App from './App';
+// import ToDo from './ToDo';
 import reportWebVitals from './reportWebVitals';
 import './input.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
